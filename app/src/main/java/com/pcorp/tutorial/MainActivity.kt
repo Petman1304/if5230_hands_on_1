@@ -17,8 +17,6 @@ import androidx.recyclerview.widget.RecyclerView
 
 class MainActivity : AppCompatActivity() {
 
-    var counter = 0;
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -75,7 +73,5 @@ class MainActivity : AppCompatActivity() {
 
         override fun getItemCount() = dataSet.size
     }
-
-    class custom
 
 }
